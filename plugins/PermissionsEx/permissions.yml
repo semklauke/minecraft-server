@@ -1,0 +1,269 @@
+groups:
+  New:
+    options:
+      default: true
+      rank: '10'
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.jail.allow.help
+    - essentials.jail.allow.helpop
+    - essentials.jail.allow.rules
+    - essentials.kick.notify
+    - essentials.ban.notify
+    - essentials.mute.notify
+    - essentials.sleepingignored
+    - authme.player.*
+  Normal:
+    options:
+      rank: '5'
+    permissions:
+    - essentials.build
+    - essentials.build.*
+    - modifyworld.*
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.book
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.compass
+    - essentials.getpos
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.nick
+    - essentials.ping
+    - essentials.signs.use.*
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.suicide
+    - essentials.time
+    - essentials.time.*
+    - essentials.weather
+    - essentials.jail.allow.mail
+    - essentials.jail.allow.ping
+    - essentials.jail.allow.seen
+    - essentials.book.title
+    - essentials.book.others
+    - essentials.broadcast
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.clearinventory
+    - essentials.msg.magic
+    - essentials.nick.color
+    - essentials.enchant
+    - essentials.enchantments.*
+    - essentials.exp.give
+    - essentials.exp.others
+    - essentials.exp.set
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.ignore
+    - essentials.ptime
+    - essentials.heal
+    - essentials.realname
+    - essentials.seen
+    - essentials.seen.*
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.nick.color
+    - essentials.nick.others
+    - essentials.speed
+    - essentials.speed.*
+    - essentials.workbench
+    - essentials.book.*
+    - essentials.repair
+    - essentials.repair.*
+    - essentials.customtext
+    - essentials.itemdb
+    - essentials.list
+    - essentials.mail.*
+    - essentials.msg.*
+    - essentials.invsee
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.keepxp
+    - essentials.delhome
+    - essentials.home
+    - essentials.home.bed
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.unlimited
+    - essentials.tp
+    - essentials.tpahere
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tppos
+    - essentials.protect.admin
+    - skinsrestorer.playercmds
+    inheritance:
+    - New
+  Moderator:
+    permissions:
+    - bukkit.command.kick
+    - bukkit.broadcast
+    - bukkit.broadcast.admin
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - bukkit.command.save
+    - bukkit.command.tell
+    - bukkit.command.time
+    - bukkit.command.time.add
+    - bukkit.command.time.set
+    - bukkit.command.version
+    - bukkit.command.whitelist
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.enable
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.remove
+    - permissions.manage.membership.New
+    - permissions.manage.membership.Normal
+    - essentials.broadcast
+    - essentials.helpop.receive
+    - essentials.kick
+    - essentials.mute
+    - essentials.thunder
+    - essentials.whois
+    - essentials.gamemode
+    - essentials.gamemode.others
+    - essentials.god
+    - essentials.god.*
+    - essentials.hat
+    - essentials.heal.*
+    - essentials.give
+    - essentials.give.*
+    - essentials.firework
+    - essentials.firework.fire
+    - essentials.feed
+    - essentials.item
+    - essentials.itemspawn.*
+    - essentials.kit
+    - essentials.kit.*
+    - essentials.more
+    - essentials.ptime.others
+    - essentials.repair
+    - essentials.repair.*
+    - essentials.skull
+    - essentials.skull.*
+    - essentials.afk.*
+    - essentials.depth
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.spawnmob
+    - essentials.spawnmob.*
+    - essentials.vanish
+    - essentials.tp.others
+    - essentials.tphere
+    inheritance:
+    - Normal
+    options:
+      rank: '2'
+  Admin:
+    options:
+      rank: '1'
+    permissions:
+    - '*'
+    - permissions.*
+schema-version: 1
+users:
+  6e5f18ef-032e-3379-ab9e-bf7bc8f6421a:
+    group:
+    - Admin
+    options:
+      name: sem_KL
+  d873fb9a-b777-3b91-ac9f-fa6c6454fb5d:
+    group:
+    - Moderator
+    options:
+      name: MoVeThaT
+  dbbc5872-9295-3f95-bde2-fd18a81a5940:
+    group:
+    - Moderator
+    options:
+      name: D3nn1sss
+      group: Moderator
+  ddb5f212-15b8-3dc5-bb47-7eb1ba0ac6f0:
+    group:
+    - Normal
+    options:
+      name: 4ever_OLAF
+  308469d9-2344-3784-b260-8837e7ba6729:
+    group:
+    - Moderator
+    options:
+      name: Verud
+  merlin:
+    group:
+    - Normal
+  76a54d53-b51f-3ed6-92b1-a21300d28e9c:
+    group:
+    - Moderator
+    options:
+      name: SemLiebKoser
+  8ec6bb26-f3eb-3f6e-9ce7-91fa7fb861a7:
+    group:
+    - Moderator
+    options:
+      name: sexxxx
+  7cacbe2e-2d6e-337f-8977-494a2a696299:
+    group:
+    - Normal
+    options:
+      name: JosChiSchlachter
+  83eeb033-a336-308b-a06b-ebea1466a821:
+    group:
+    - Moderator
+    options:
+      name: Marvin
+  0cf3b0bf-92b4-336a-9f04-2314ca332ade:
+    group:
+    - Normal
+    options:
+      name: coolboy3007
+  02a3995c-a60d-3d09-8800-707dcbc4753c:
+    group:
+    - Normal
+    options:
+      name: julius_20010518
+  c91d39dc-b686-3b78-966b-6f7908ece98d:
+    group:
+    - Normal
+    options:
+      name: Denpose
+  950aa3eb-9918-3709-a70a-b1f78ce6dc96:
+    group:
+    - Normal
+    options:
+      name: LeeG517
+  ec19ab1a-9b54-3aea-9df0-2bad2896c38d:
+    group:
+    - Normal
+    options:
+      name: Max
+  dbb7b7e4-a8de-36ba-918a-456de5c8a886:
+    group:
+    - Normal
+    options:
+      name: Hiep
+  85f94390-4e8d-38b9-ab5f-d9bf68241333:
+    group:
+    - Normal
+    options:
+      name: sweetgril69
+  53b35a77-6726-3307-9ca6-9fb19bf7c557:
+    group:
+    - Normal
+    options:
+      name: SMadHummel
